@@ -75,8 +75,7 @@ function LandingPage() {
                 Know what you'll pay before you land.
               </h1>
               <p className="mt-4 text-lg text-muted-foreground">
-                July small car from{" "}
-                <span className="font-semibold text-foreground">€35/day</span> — insurance, second
+                July small car from <span className="font-semibold text-foreground">€35/day</span> — insurance, second
                 driver and airport pickup already in the price.
               </p>
 
@@ -331,7 +330,7 @@ function LandingPage() {
                 },
                 {
                   q: "What happens after I send the form?",
-                  a: "Your form is a request, not an instant reservation. We receive your dates and chosen category and reply by email to confirm availability, the total price and pickup arrangements. Our 24/7 support phone is available throughout your rental.",
+                  a: "Your form is a request, not an instant reservation. We receive your dates and chosen category and reply by email to confirm availability, the total price and pickup arrangements.",
                 },
                 {
                   q: "How does the fuel policy work?",
@@ -397,9 +396,6 @@ function LandingPage() {
             </p>
           </div>
         </div>
-        <p className="section-x mt-8 text-sm text-muted-foreground">
-          Assessment demo — contact details are placeholders.
-        </p>
       </footer>
 
       {/* Mobile sticky CTA */}
