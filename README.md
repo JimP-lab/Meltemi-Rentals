@@ -1,8 +1,9 @@
-# Meltemi Rentals 
-Meltemi Rentals is a single-page, mobile-first landing page for price-conscious international visitors to Kos. 
-Its job is not to simulate an instant booking engine; it is to turn interest into a clear, low-friction booking request. The core conversion challenge was to explain, within seconds, why a **€35/day July small-car rate** can be the more trustworthy choice than a lower headline rate, without naming or attacking competitors. The page makes the included value explicit: zero-excess insurance, a second driver, airport pickup and delivery, full-to-full fuel, 24/7 support and no credit-card deposit.
+##  Meltemi Rentals 
+Meltemi Rentals is a small car rental company based in Kos, Greece, with a fleet of 12 vehicles. It currently accepts bookings only by phone and needs a simple online presence to help potential customers discover the business and submit rental requests. The landing page is designed for international visitors searching for car hire in Kos. Its purpose is not to function as an instant booking or payment platform, but to turn online interest into clear, low-friction booking enquiries. It presents the company’s value proposition, rental conditions, vehicle categories and key inclusions, while guiding visitors toward submitting their preferred dates and vehicle category.
 
-## Images of the landing page
+The page focuses on transparent pricing, practical information and trust-building elements such as zero-excess coverage, airport pickup and delivery, and no card deposit. Its primary goal is to generate qualified booking requests from visitors who are looking to rent a car during their stay in Kos.
+
+## Images of the landing page ## 
 
 <img width="1797" height="636" alt="Screenshot 2026-09-16 atMeltemi Rentals Kos — Car hire from €35_day all-inclusive" src="https://github.com/user-attachments/assets/72d10d3b-0f9d-4047-8df7-18173d6122a1"/> 
 
