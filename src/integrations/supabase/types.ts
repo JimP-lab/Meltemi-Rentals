@@ -14,7 +14,39 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      booking_requests: {
+        Row: {
+          car_category: Database["public"]["Enums"]["car_category"]
+          created_at: string
+          email: string
+          full_name: string
+          id: string
+          pickup_date: string
+          request_id: string
+          return_date: string
+        }
+        Insert: {
+          car_category: Database["public"]["Enums"]["car_category"]
+          created_at?: string
+          email: string
+          full_name: string
+          id?: string
+          pickup_date: string
+          request_id: string
+          return_date: string
+        }
+        Update: {
+          car_category?: Database["public"]["Enums"]["car_category"]
+          created_at?: string
+          email?: string
+          full_name?: string
+          id?: string
+          pickup_date?: string
+          request_id?: string
+          return_date?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
@@ -23,7 +55,7 @@ export type Database = {
       [_ in never]: never
     }
     Enums: {
-      [_ in never]: never
+      car_category: "economy" | "compact" | "automatic" | "suv"
     }
     CompositeTypes: {
       [_ in never]: never
@@ -150,6 +182,8 @@ export type CompositeTypes<
 
 export const Constants = {
   public: {
-    Enums: {},
+    Enums: {
+      car_category: ["economy", "compact", "automatic", "suv"],
+    },
   },
 } as const
