@@ -1,7 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import {
-  BadgeEuro,
   CalendarCheck,
   CarFront,
   CheckCircle2,
@@ -306,10 +305,56 @@ function LandingPage() {
           </div>
         </section>
 
-        {/* 8 — FAQ */}
-        <section id="faq" className="scroll-mt-20 bg-sand py-14 sm:py-16">
+        {/* 8 — Conversion */}
+        <section id="request" className="scroll-mt-20 bg-sand py-14 sm:py-16">
+          <div className="section-x grid gap-8 lg:grid-cols-2 lg:items-start lg:gap-12">
+            <div className="min-w-0 lg:pt-3">
+              <p className="text-sm font-semibold tracking-wide text-seafoam-deep uppercase">
+                Ready to choose your car?
+              </p>
+              <h2 className="mt-2 max-w-xl text-3xl font-semibold sm:text-4xl">
+                Your Kos car is one short request away.
+              </h2>
+              <p className="mt-4 max-w-xl text-lg text-muted-foreground">
+                Select your travel dates and car category. Meltemi will confirm availability and the
+                exact all-inclusive price by email.
+              </p>
+
+              <ol aria-label="Booking request steps" className="mt-7 grid gap-3 sm:grid-cols-3 lg:grid-cols-1">
+                {[
+                  { icon: CalendarCheck, step: "1", label: "Choose dates" },
+                  { icon: CarFront, step: "2", label: "Select your car" },
+                  { icon: MailCheck, step: "3", label: "Receive confirmation" },
+                ].map(({ icon: Icon, step, label }) => (
+                  <li key={step} className="flex items-center gap-3">
+                    <span className="grid size-9 shrink-0 place-items-center rounded-full bg-primary text-sm font-bold text-primary-foreground">
+                      {step}
+                    </span>
+                    <Icon aria-hidden="true" className="size-5 shrink-0 text-primary" />
+                    <span className="font-semibold text-foreground">{label}</span>
+                  </li>
+                ))}
+              </ol>
+
+              <p className="mt-7 flex items-start gap-2 rounded-lg bg-accent px-4 py-3 text-sm font-semibold text-accent-foreground">
+                <CheckCircle2 aria-hidden="true" className="mt-0.5 size-5 shrink-0" />
+                No payment, no card details, no credit-card deposit.
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-border bg-card p-5 shadow-card sm:p-6">
+              <BookingForm category={category} onCategoryChange={setCategory} />
+            </div>
+          </div>
+        </section>
+
+        {/* 9 — FAQ */}
+        <section id="faq" className="scroll-mt-20 py-14 sm:py-16">
           <div className="section-x max-w-3xl">
             <h2 className="text-3xl font-semibold sm:text-4xl">Frequently asked questions</h2>
+            <p className="mt-3 text-lg text-muted-foreground">
+              Need a quick answer before you send your request?
+            </p>
             <Accordion type="single" collapsible className="mt-6">
               {[
                 {
@@ -343,35 +388,6 @@ function LandingPage() {
                 </AccordionItem>
               ))}
             </Accordion>
-          </div>
-        </section>
-
-        {/* 9 — Conversion */}
-        <section id="request" className="scroll-mt-20 py-14 sm:py-16">
-          <div className="section-x grid gap-8 lg:grid-cols-2 lg:gap-12">
-            <div className="min-w-0">
-              <h2 className="text-3xl font-semibold sm:text-4xl">Request your car</h2>
-              <p className="mt-3 text-lg text-muted-foreground">
-                Send your dates and we'll come back by email with availability and the full price —
-                insurance, second driver and airport pickup already included.
-              </p>
-              <ul className="mt-6 space-y-2">
-                {INCLUSIONS.map((item) => (
-                  <li key={item} className="flex items-start gap-2 text-base">
-                    <CheckCircle2 aria-hidden="true" className="mt-0.5 size-5 shrink-0 text-seafoam-deep" />
-                    {item}
-                  </li>
-                ))}
-              </ul>
-              <p className="mt-6 flex items-center gap-2 text-base font-semibold">
-                <BadgeEuro aria-hidden="true" className="size-5 text-primary" />
-                What you see is what you pay.
-              </p>
-            </div>
-
-            <div className="rounded-2xl border border-border bg-card p-5 shadow-card sm:p-6">
-              <BookingForm category={category} onCategoryChange={setCategory} />
-            </div>
           </div>
         </section>
       </main>
