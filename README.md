@@ -5,26 +5,24 @@ The page focuses on transparent pricing, practical information and trust-buildin
 
 ## Images of the landing page ## 
 
-<img width="1797" height="636" alt="Screenshot 2026-09-16 atMeltemi Rentals Kos — Car hire from €35_day all-inclusive" src="https://github.com/user-attachments/assets/72d10d3b-0f9d-4047-8df7-18173d6122a1"/> 
+<img width="1834" height="639" alt="Meltemi Rentals Kos — Car hire from €35_day all-inclusive home page" src="https://github.com/user-attachments/assets/6569734a-2356-47e6-8cf9-4860a3160a20" />
 
-<img width="1758" height="625" alt="Screenshot 2026-09-16 at 17-35-51 Meltemi Rentals Kos — Car hire from €35_day all-inclusive" src="https://github.com/user-attachments/assets/df7edbe2-4647-49fd-ad7a-5c54e8c9486d"/>
+<img width="1606" height="626" alt="Meltemi Rentals Kos — Car hire from €35_day all-inclusive prise comparison" src="https://github.com/user-attachments/assets/89080d68-6a2c-4566-8bfd-ad8cf3f68b51" />
 
-<img width="1799" height="455" alt="Screenshot 2026-09-16 at 17-36-03 Meltemi Rentals Kos — Car hire from €35_day all-inclusive" src="https://github.com/user-attachments/assets/35af270e-1885-4212-bf35-6381db1ce817"/>
+<img width="1766" height="427" alt="Meltemi Rentals Kos — Car hire from €35_day all-inclusive total detials" src="https://github.com/user-attachments/assets/db9dc790-0a00-4e31-8028-39f8b858113c" /> 
 
-<img width="1783" height="687" alt="Screenshot 2026-09-16 at 17-36-20 Meltemi Rentals Kos — Car hire from €35_day all-inclusive" src="https://github.com/user-attachments/assets/3509a9cb-2532-47cf-9017-c7d85a6c05e2"/>
+<img width="1772" height="722" alt="Meltemi Rentals Kos — Car hire from €35_day all-inclusive fleet cars" src="https://github.com/user-attachments/assets/a9801d53-ced1-4d8f-ad78-b2cb945708e6" /> 
 
-<img width="1678" height="629" alt="Screenshot 2026-09-16 at 17-36-31 Meltemi Rentals Kos — Car hire from €35_day all-inclusive" src="https://github.com/user-attachments/assets/c70edc09-0150-47d5-9b9b-8a08c78d346b"/>
+<img width="1853" height="664" alt="Meltemi Rentals Kos — Car hire from €35_day all-inclusive How it works" src="https://github.com/user-attachments/assets/e17c344a-14b9-4279-adf0-8c0ab6dca233" />
 
-<img width="1714" height="505" alt="Screenshot 2026-09-16 at 17-37-06 Meltemi Rentals Kos — Car hire from €35_day all-inclusive" src="https://github.com/user-attachments/assets/8d847e0f-9723-4458-b323-b0d19e97c717"/>
+<img width="1853" height="757" alt="Meltemi Rentals Kos — Car hire from €35_day all-inclusive booking form" src="https://github.com/user-attachments/assets/c7a8d049-5e40-447f-bd2d-60cf94a7b5f5" />
 
-<img width="1732" height="617" alt="Screenshot 2026-09-16 at 17-37-19 Meltemi Rentals Kos — Car hire from €35_day all-inclusive" src="https://github.com/user-attachments/assets/4fed8b39-afb1-4c7e-bdaf-3676afef5b87"/>
+<img width="1853" height="569" alt="Meltemi Rentals Kos — Car hire from €35_day all-inclusive faq section" src="https://github.com/user-attachments/assets/7e9c674d-55b4-46de-a52f-459b0e4fa8aa" />
 
-<img width="1840" height="126" alt="Screenshot 2026-09-16 at 17-37-38 Meltemi Rentals Kos — Car hire from €35_day all-inclusive" src="https://github.com/user-attachments/assets/28ff304a-6bbf-4c28-a2ee-06022a961e01"/>
-
+<img width="1852" height="558" alt="Meltemi Rentals Kos — Car hire from €35_day all-inclusive footer" src="https://github.com/user-attachments/assets/223df161-3f8a-412d-b3f3-d6a911121e42" />
 
 # Meltemi Rentals Preview
 https://meltemi-rentals.lovable.app/
-
 
 ## Visitor journey and conversion decisions
 
@@ -62,7 +60,6 @@ The form requests only full name, email, pick-up date, return date and vehicle c
 - Tested missing required fields, invalid email input and invalid date order.
 - Verified fleet CTAs preselect the intended vehicle category.
 - Checked mobile scrolling, CTA usability and desktop layout; the live page loaded in approximately three seconds in a real mobile test.
-
 
 ## Scope and limitations
 This is a fictional assessment implementation. Contact details and vehicle availability are placeholders, and quoted non-economy prices are example July prices.
