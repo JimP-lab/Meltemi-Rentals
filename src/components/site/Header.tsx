@@ -21,7 +21,27 @@ export function Header() {
             aria-hidden="true"
             className="grid size-9 shrink-0 place-items-center rounded-full bg-primary text-sm font-bold text-primary-foreground"
           >
-            M
+            <svg
+              aria-hidden="true"
+              viewBox="0 0 36 36"
+              className="size-6"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="26" cy="9.5" r="3" className="fill-accent" />
+              <path
+                d="M7.5 25.5c5.3 0 9.1-2.8 11.4-7.4C20.9 14 23.2 11.5 27 11.5"
+                stroke="currentColor"
+                strokeWidth="2.8"
+                strokeLinecap="round"
+              />
+              <path
+                d="M8 28.5c4.8-1.4 9.4-1.4 14.2 0"
+                stroke="currentColor"
+                strokeWidth="2.1"
+                strokeLinecap="round"
+              />
+            </svg>
           </span>
           <span className="truncate font-display">Meltemi Rentals</span>
         </a>
