@@ -104,7 +104,7 @@ export function BookingForm({
           Thank you, {fullName.trim().split(" ")[0]}. This is a booking <strong>request</strong>, not a
           confirmed reservation. Meltemi Rentals will follow up by email at{" "}
           <span className="font-medium">{email.trim()}</span> to confirm availability and the full price
-          — with no hidden extras.
+          with no hidden extras.
         </p>
       </div>
     );
@@ -234,7 +234,7 @@ export function BookingForm({
         >
           {FLEET.map((car) => (
             <option key={car.category} value={car.category}>
-              {car.categoryLabel} — {car.name}
+              {car.categoryLabel} - {car.name}
             </option>
           ))}
         </select>
