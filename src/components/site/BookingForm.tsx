@@ -40,6 +40,7 @@ export function BookingForm({
   const [done, setDone] = useState(false);
   const requestIdRef = useRef<string>(newRequestId());
   const successRef = useRef<HTMLDivElement | null>(null);
+  const selectedCar = FLEET.find((car) => car.category === category);
 
   function validate(): Errors {
     const next: Errors = {};
@@ -111,6 +112,18 @@ export function BookingForm({
 
   return (
     <form onSubmit={handleSubmit} noValidate className="space-y-4">
+      <div aria-live="polite" aria-atomic="true" className="border-b border-border pb-4">
+        <p className="text-sm font-semibold text-muted-foreground">Selected car</p>
+        {selectedCar && (
+          <div className="mt-1 flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1">
+            <p className="font-display text-lg font-semibold text-foreground">
+              {selectedCar.categoryLabel} · {selectedCar.name}
+            </p>
+            <p className="text-base font-semibold text-primary">€{selectedCar.price}/day in July</p>
+          </div>
+        )}
+      </div>
+
       <div>
         <label htmlFor={`${uid}-name`} className="mb-1.5 block text-sm font-semibold">
           Full name
@@ -257,7 +270,8 @@ export function BookingForm({
       </button>
 
       <p className="text-center text-sm text-muted-foreground">
-        No payment, no card details. We reply by email to confirm availability and the full price.
+        No payment, no card details, no credit-card deposit. We reply by email to confirm availability
+        and the full price.
       </p>
     </form>
   );
