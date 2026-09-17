@@ -7,7 +7,10 @@ import {
   CreditCard,
   Fuel,
   LifeBuoy,
+  Mail,
   MailCheck,
+  MapPin,
+  Phone,
   PlaneLanding,
   ShieldCheck,
   UserPlus,
@@ -393,23 +396,104 @@ function LandingPage() {
       </main>
 
       {/* 10 — Footer */}
-      <footer className="border-t border-border bg-sand py-10">
-        <div className="section-x grid gap-6 sm:grid-cols-2">
-          <div>
-            <p className="font-display text-lg font-semibold">Meltemi Rentals</p>
-            <p className="mt-2 text-base text-muted-foreground">Kos, Greece</p>
+      <footer>
+        <div className="bg-sand">
+          <div className="section-x flex flex-col items-start gap-6 py-12 sm:py-14 lg:flex-row lg:items-center lg:justify-between lg:gap-10">
+            <div className="max-w-2xl">
+              <p className="text-sm font-semibold tracking-wide text-seafoam-deep uppercase">
+                Plan your Kos drive
+              </p>
+              <h2 className="mt-2 text-3xl font-semibold sm:text-4xl">
+                Ready to know your full rental price?
+              </h2>
+              <p className="mt-3 text-lg text-muted-foreground">
+                Choose your car and send a request. We’ll confirm availability, pickup details and
+                the full all-inclusive price by email.
+              </p>
+            </div>
+            <a
+              href="#request"
+              className="inline-flex h-14 w-full shrink-0 items-center justify-center rounded-full bg-primary px-8 text-base font-semibold text-primary-foreground transition-colors hover:bg-aegean sm:w-auto"
+            >
+              Request your car
+            </a>
           </div>
-          <div className="text-base text-muted-foreground">
-            <p>
-              <a className="hover:text-foreground" href="mailto:hello@meltemi-rentals.example">
-                hello@meltemi-rentals.example
-              </a>
-            </p>
-            <p className="mt-1">
-              <a className="hover:text-foreground" href="tel:+302242000000">
-                +30 22420 00000
-              </a>
-            </p>
+        </div>
+
+        <div className="bg-aegean text-aegean-foreground">
+          <div className="section-x grid gap-10 py-12 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
+            <div>
+              <p className="font-display text-lg font-semibold">Meltemi Rentals</p>
+              <p className="mt-3 text-base text-aegean-foreground/80">
+                Clear, all-inclusive car hire for Kos.
+              </p>
+              <p className="mt-2 flex items-center gap-2 text-base text-aegean-foreground/80">
+                <MapPin aria-hidden="true" className="size-4 shrink-0" />
+                Kos, Greece
+              </p>
+            </div>
+
+            <nav aria-label="Footer">
+              <h2 className="text-sm font-semibold tracking-wide uppercase">Explore</h2>
+              <ul className="mt-3 space-y-2 text-base">
+                <li>
+                  <a className="underline-offset-4 hover:underline" href="#pricing">
+                    Price clarity
+                  </a>
+                </li>
+                <li>
+                  <a className="underline-offset-4 hover:underline" href="#fleet">
+                    Our fleet
+                  </a>
+                </li>
+                <li>
+                  <a className="underline-offset-4 hover:underline" href="#how-it-works">
+                    How it works
+                  </a>
+                </li>
+                <li>
+                  <a className="underline-offset-4 hover:underline" href="#faq">
+                    FAQ
+                  </a>
+                </li>
+              </ul>
+            </nav>
+
+            <div className="sm:col-span-2 lg:col-span-1">
+              <h2 className="text-sm font-semibold tracking-wide uppercase">Contact</h2>
+              <address className="mt-3 space-y-2 text-base not-italic">
+                <p className="font-semibold">Meltemi Rentals</p>
+                <p className="flex items-center gap-2 text-aegean-foreground/80">
+                  <MapPin aria-hidden="true" className="size-4 shrink-0" />
+                  Kos, Greece
+                </p>
+                <p>
+                  <a
+                    className="inline-flex items-center gap-2 underline-offset-4 hover:underline"
+                    href="mailto:hello@meltemi-rentals.example"
+                  >
+                    <Mail aria-hidden="true" className="size-4 shrink-0" />
+                    hello@meltemi-rentals.example
+                  </a>
+                </p>
+                <p>
+                  <a
+                    className="inline-flex items-center gap-2 underline-offset-4 hover:underline"
+                    href="tel:+302242000000"
+                  >
+                    <Phone aria-hidden="true" className="size-4 shrink-0" />
+                    +30 22420 00000
+                  </a>
+                </p>
+              </address>
+            </div>
+          </div>
+
+          <div className="border-t border-aegean-foreground/20">
+            <div className="section-x flex flex-col gap-1 py-5 text-sm text-aegean-foreground/70 sm:flex-row sm:items-center sm:justify-between">
+              <p>© 2026 Meltemi Rentals. All rights reserved.</p>
+              <p>Booking requests are confirmed by email.</p>
+            </div>
           </div>
         </div>
       </footer>
