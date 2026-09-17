@@ -370,7 +370,7 @@ function LandingPage() {
                 },
                 {
                   q: "Is airport pickup included?",
-                  a: "Yes Airport pickup and delivery in Kos are included in the rate we bring the car to you and collect it again.",
+                  a: "Yes airport pickup and delivery in Kos are included in the rate we bring the car to you and collect it again.",
                 },
                 {
                   q: "Can someone else drive the car?",
