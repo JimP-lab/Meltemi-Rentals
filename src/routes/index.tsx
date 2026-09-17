@@ -77,7 +77,7 @@ function LandingPage() {
                 Know what you'll pay before you land.
               </h1>
               <p className="mt-4 text-lg text-muted-foreground">
-                July small car from <span className="font-semibold text-foreground">€35/day</span> — insurance, second
+                July small car from <span className="font-semibold text-foreground">€35/day</span> – insurance, second
                 driver and airport pickup already in the price.
               </p>
 
@@ -130,7 +130,7 @@ function LandingPage() {
               Compare the total, not just the headline.
             </h2>
             <p className="mt-3 max-w-2xl text-lg text-muted-foreground">
-              Advertised daily rates on the island start as low as €8/day. That number can be genuine —
+              Advertised daily rates on the island start as low as €8/day. That number can be genuine
               but it describes a starting rate, not necessarily the total you pay. Inclusions and terms
               differ from supplier to supplier.
             </p>
@@ -182,11 +182,11 @@ function LandingPage() {
                 {
                   icon: PlaneLanding,
                   title: "Airport pickup & delivery",
-                  text: "We meet you at Kos airport and take the car back there — included, not an add-on fee.",
+                  text: "We meet you at Kos airport and take the car back there – included, not an add-on fee.",
                 },
                 {
                   icon: CreditCard,
-                  title: "No credit-card deposit",
+                  title: "No credit card deposit",
                   text: "Nothing blocked on your card while you're on holiday. You pay the agreed price, nothing else.",
                 },
               ].map(({ icon: Icon, title, text }) => (
@@ -198,7 +198,7 @@ function LandingPage() {
               ))}
             </div>
             <p className="mt-5 text-base text-muted-foreground">
-              A second driver is included at no extra cost, and fuel is full-to-full — you get the car
+              A second driver is included at no extra cost, and fuel is full-to-full – you get the car
               full and bring it back full.
             </p>
           </div>
@@ -290,7 +290,7 @@ function LandingPage() {
             <ol className="mt-8 grid gap-4 md:grid-cols-3">
               {[
                 { icon: CalendarCheck, step: "1", title: "Send your dates", text: "Tell us when you arrive and when you leave." },
-                { icon: CarFront, step: "2", title: "Choose your car", text: "Pick a category — the price you see includes everything." },
+                { icon: CarFront, step: "2", title: "Choose your car", text: "Pick a category the price you see includes everything." },
                 { icon: MailCheck, step: "3", title: "Get confirmation", text: "We reply by email with availability, the total price and pickup details." },
               ].map(({ icon: Icon, step, title, text }) => (
                 <li key={step} className="rounded-2xl border border-border bg-card p-6 shadow-card">
@@ -316,11 +316,11 @@ function LandingPage() {
                 Ready to choose your car?
               </p>
               <h2 className="mt-2 max-w-xl text-3xl font-semibold sm:text-4xl">
-                Your Kos car is one short request away.
+                Your car is one request away.
               </h2>
               <p className="mt-4 max-w-xl text-lg text-muted-foreground">
                 Select your travel dates and car category. Meltemi will confirm availability and the
-                exact all-inclusive price by email.
+                exact all inclusive price by email.
               </p>
 
               <ol aria-label="Booking request steps" className="mt-7 grid gap-3 sm:grid-cols-3 lg:grid-cols-1">
@@ -341,7 +341,7 @@ function LandingPage() {
 
               <p className="mt-7 flex items-start gap-2 rounded-lg bg-accent px-4 py-3 text-sm font-semibold text-accent-foreground">
                 <CheckCircle2 aria-hidden="true" className="mt-0.5 size-5 shrink-0" />
-                No payment, no card details, no credit-card deposit.
+                No payment, no card details, no credit card deposit.
               </p>
             </div>
 
@@ -366,15 +366,15 @@ function LandingPage() {
                 },
                 {
                   q: "Do you block a deposit on my credit card?",
-                  a: "No. There is no credit-card deposit. Nothing is blocked on your card.",
+                  a: "No there is no credit card deposit nothing is blocked on your card.",
                 },
                 {
                   q: "Is airport pickup included?",
-                  a: "Yes. Airport pickup and delivery in Kos are included in the rate — we bring the car to you and collect it again.",
+                  a: "Yes Airport pickup and delivery in Kos are included in the rate we bring the car to you and collect it again.",
                 },
                 {
                   q: "Can someone else drive the car?",
-                  a: "Yes. A second driver is included at no extra cost.",
+                  a: "Yes a second driver is included at no extra cost.",
                 },
                 {
                   q: "What happens after I send the form?",
@@ -407,8 +407,8 @@ function LandingPage() {
                 Ready to know your full rental price?
               </h2>
               <p className="mt-3 text-lg text-muted-foreground">
-                Choose your car and send a request. We’ll confirm availability, pickup details and
-                the full all-inclusive price by email.
+                Choose your car and send a request. We’ll confirm availability, pickup details and 
+                your total all-inclusive price by email.
               </p>
             </div>
             <a
