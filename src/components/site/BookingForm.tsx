@@ -270,7 +270,7 @@ export function BookingForm({
       </button>
 
       <p className="text-center text-sm text-muted-foreground">
-        No payment, no card details, no credit-card deposit. We reply by email to confirm availability
+        No payment, no card details, no credit card deposit. We reply by email to confirm availability
         and the full price.
       </p>
     </form>
